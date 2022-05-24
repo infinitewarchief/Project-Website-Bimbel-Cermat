@@ -6,7 +6,8 @@
     <div class="register-box">
         <div class="card">
             <div class="card-body register-card-body">
-
+              <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+                @if(Session::has('success'))
                 <form method="post">
                     <center><h3>Data Peserta Didik</h3></center>
                     <br>
