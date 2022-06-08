@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>BIMBEL PRIVAT CERMAT SAMARINDA</title>
     <style>
         body{
@@ -49,6 +51,12 @@
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="<?php echo e(route('kontak')); ?>">HUBUNGI KAMI</a>
       </li>
+    </ul>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+         <a class="nav-ink js-scroll-trigger" href="<?php echo e(route('login')); ?>"><i class="bi bi-box-arrow-right"></i>
+                LOGIN</a>
+        </li>
     </ul>
   </div>
   </div>
